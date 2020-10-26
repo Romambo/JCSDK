@@ -17,6 +17,9 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 ### Document
 [1.0.0](https://github.com/Romambo/JCSDK_DocumentFile)
 
+### Unity_bridge
+[unityBridge](https://github.com/Romambo/JCSDK_DocumentFile/blob/main/IOS_UnityBridge.zip)
+
 ### Version of the record
 
 1.0.0:
