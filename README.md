@@ -12,7 +12,7 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 ### Support library And File
 [DataCollection_SDK](https://github.com/Romambo/DataCollection_SDK)
 
-[ADThirdParty_SDK](https://drive.google.com/drive/folders/1OJE0ErKPiC1jcmfsRYaBqK6Tz9YO69N9)
+[ADThirdParty_SDK](https://github.com/Romambo/ADThirdParty_SDK)
 
 ### Version of the record
 
