@@ -14,6 +14,9 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 
 [ADThirdParty_SDK](https://github.com/Romambo/ADThirdParty_SDK)
 
+### Document
+[1.0.0](https://github.com/Romambo/JCSDK_DocumentFile)
+
 ### Version of the record
 
 1.0.0:
