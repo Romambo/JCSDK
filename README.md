@@ -23,6 +23,11 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 ## Version of the record
 
 ### V1.0.0
+<details>
+<summary>Title</summary>
+
+content!!!
+</details>
  support development tools: Xcode 11
 
 ### V2.0.0
