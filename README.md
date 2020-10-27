@@ -9,19 +9,38 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
  
 ### Do not download or transfer SDKs (including .a, .framework and .embededframework packages) required for iOS to Windows, as the Windows file system will modify these SDKs so that they will not compile in Xcode.
 
-### Support library And File
+## Support library And File
 [DataCollection_SDK](https://github.com/Romambo/DataCollection_SDK)
 
 [ADThirdParty_SDK](https://github.com/Romambo/ADThirdParty_SDK)
 
-### Document
+## Document
 [1.0.0](https://github.com/Romambo/JCSDK_DocumentFile)
 
-### Unity_bridge
+## Unity_bridge
 [unityBridge](https://github.com/Romambo/JCSDK_DocumentFile/blob/main/IOS_UnityBridge.zip)
 
-### [Version of the record](https://github.com/Romambo/JCSDK_DocumentFile/blob/main/README.md)
+## Version of the record
 
-1.0.0  
-2.0.0  
+### V1.0.0
+ support development tools: Xcode 11
+
+### V2.0.0
+ support development tools: Xcode 12
+
+**update content**  
+>1.Added internal logic waterfall and continuous display  
+>2.Added "kochava" and "tenjin" statistics  
+>3.Change the SDK initialization interface used by Unity. see: JC_unityAdApi.h  
+>4.Change the log log interface, increase the log level.  see: JCAdCallBackHeader.h  
+>5.Change JCiOSConfig.plist, add: "KochavaAppID", "TenJinAppID", "ShowSplashFirst", "LogLevel"  
+
+**Project configuration：**  
+* add Support Library and file:  
+   > AppTrackingTransparency.framework  
+   > KochavaCore.framework               (Embed & Sign)  
+   > KochavaTracker.framework            (Embed & Sign)  
+   > KochavaAdNetwork.framework          (Embed & Sign)  
+   > libTenjinSDK.a  
+   > TenjinSDK.h 
 
