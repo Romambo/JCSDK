@@ -22,17 +22,16 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 
 ## Version of the record
 
-### V1.0.0
 <details>
-<summary>Title</summary>
+<summary>1.0.0</summary>
 
-content!!!
+support development tools: Xcode 11
 </details>
- support development tools: Xcode 11
+ 
+<details>
+<summary>2.0.0</summary>
 
-### V2.0.0
- support development tools: Xcode 12
-
+support development tools: Xcode 12  
 **update content**  
 >1.Added internal logic waterfall and continuous display  
 >2.Added "kochava" and "tenjin" statistics  
@@ -48,4 +47,8 @@ content!!!
    > KochavaAdNetwork.framework          (Embed & Sign)  
    > libTenjinSDK.a  
    > TenjinSDK.h 
+</details>
+ 
+
+
 
