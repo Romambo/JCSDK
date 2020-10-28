@@ -112,6 +112,7 @@ system version:iOS 9.0
 
 support development tools: Xcode 12  
 system version:iOS 9.0
+
 **update content**  
 >1.Added internal logic waterfall and continuous display  
 >2.Added "kochava" and "tenjin" statistics  
