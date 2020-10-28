@@ -7,8 +7,9 @@ Ad types supported:
 
 splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
  
+ ## 资源文件
 <details>
-<summary>## 中文接入</summary>
+<summary>中文</summary>
 
 ### 请勿将iOS需要用到的SDK（包括.a、.framework及.embededframework格式的套件）下载或传送至Windows操作系统上，因为Windows文件系统会修改这些SDK，导致它们在Xcode中无法编译。
 
@@ -70,8 +71,9 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 </details>
 </details>
 
+## resource
 <details>
-<summary>## English access</summary>
+<summary>English</summary>
 
 ### Do not download or transfer SDKs (including .a, .framework and .embededframework packages) required for iOS to Windows, as the Windows file system will modify these SDKs so that they will not compile in Xcode.
 
