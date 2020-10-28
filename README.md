@@ -11,20 +11,20 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 <details>
 <summary>中文</summary>
 
-### 请勿将iOS需要用到的SDK（包括.a、.framework及.embededframework格式的套件）下载或传送至Windows操作系统上，因为Windows文件系统会修改这些SDK，导致它们在Xcode中无法编译。
+#### 请勿将iOS需要用到的SDK（包括.a、.framework及.embededframework格式的套件）下载或传送至Windows操作系统上，因为Windows文件系统会修改这些SDK，导致它们在Xcode中无法编译。
 
-## 接入JCSDK所需的额外支持库 和 相关文件
+#### 接入JCSDK所需的额外支持库 和 相关文件
 [DataCollection_SDK](https://github.com/Romambo/DataCollection_SDK)数据统计相关库
 
 [ADThirdParty_SDK](https://github.com/Romambo/ADThirdParty_SDK)第三方广告库
 
-## 对接文档
+#### 对接文档
 [1.0.0](https://github.com/Romambo/JCSDK_DocumentFile)
 
-## Unity桥接文件
+#### Unity桥接文件
 [unityBridge](https://github.com/Romambo/JCSDK_DocumentFile/blob/main/IOS_UnityBridge.zip)
 
-## 版本记录
+#### 版本记录
 
 <details>
 <summary>1.0.0</summary>
@@ -78,20 +78,20 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 <details>
 <summary>English</summary>
 
-### Do not download or transfer SDKs (including .a, .framework and .embededframework packages) required for iOS to Windows, as the Windows file system will modify these SDKs so that they will not compile in Xcode.
+#### Do not download or transfer SDKs (including .a, .framework and .embededframework packages) required for iOS to Windows, as the Windows file system will modify these SDKs so that they will not compile in Xcode.
 
-## Support library And File
+#### Support library And File
 [DataCollection_SDK](https://github.com/Romambo/DataCollection_SDK)
 
 [ADThirdParty_SDK](https://github.com/Romambo/ADThirdParty_SDK)
 
-## Document
+#### Document
 [1.0.0](https://github.com/Romambo/JCSDK_DocumentFile)
 
-## Unity_bridge
+#### Unity_bridge
 [unityBridge](https://github.com/Romambo/JCSDK_DocumentFile/blob/main/IOS_UnityBridge.zip)
 
-## Version of the record
+#### Version of the record
 
 <details>
 <summary>1.0.0</summary>
