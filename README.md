@@ -1,3 +1,12 @@
+<details>
+<summary>中文接入</summary>
+
+
+</details>
+
+<details>
+<summary>English access</summary>
+
 # JCSDK-iOS
 ## Introduction to JCSDK
 
@@ -69,6 +78,8 @@ typedef enum : NSInteger {
    > TenjinSDK.h 
 </details>
  
+
+</details>
 
 
 
