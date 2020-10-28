@@ -19,7 +19,9 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 [ADThirdParty_SDK](https://github.com/Romambo/ADThirdParty_SDK)第三方广告库
 
 #### 对接文档
-[1.0.0](https://github.com/Romambo/JCSDK_DocumentFile)
+[iOS14_support](https://github.com/Romambo/JCSDK_DocumentFile/tree/main/iOS14Support)
+[iOS](https://github.com/Romambo/JCSDK_DocumentFile/tree/main/iOS_document)
+[unity](https://github.com/Romambo/JCSDK_DocumentFile/tree/main/unity_document)
 
 #### Unity桥接文件
 [unityBridge](https://github.com/Romambo/JCSDK_DocumentFile/blob/main/IOS_UnityBridge.zip)
@@ -86,7 +88,9 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 [ADThirdParty_SDK](https://github.com/Romambo/ADThirdParty_SDK)
 
 #### Document
-[1.0.0](https://github.com/Romambo/JCSDK_DocumentFile)
+[iOS14_support](https://github.com/Romambo/JCSDK_DocumentFile/tree/main/iOS14Support)
+[iOS](https://github.com/Romambo/JCSDK_DocumentFile/tree/main/iOS_document)
+[unity](https://github.com/Romambo/JCSDK_DocumentFile/tree/main/unity_document)
 
 #### Unity_bridge
 [unityBridge](https://github.com/Romambo/JCSDK_DocumentFile/blob/main/IOS_UnityBridge.zip)
