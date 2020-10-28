@@ -59,8 +59,9 @@ typedef enum : NSInteger {
    "LogLevel":loglevel 1、closeAll. 2、open JC_log. 3、open JC+AD log. 4、open JC+AD+Data log. Defaults:1  
 
 **Project configuration：**  
-* add Support Library and file:  
+* add System library:  
    > AppTrackingTransparency.framework  
+* add Third party library and file:
    > KochavaCore.framework               (Embed & Sign)  
    > KochavaTracker.framework            (Embed & Sign)  
    > KochavaAdNetwork.framework          (Embed & Sign)  
