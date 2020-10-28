@@ -37,11 +37,26 @@ support development tools: Xcode 12
 >2.Added "kochava" and "tenjin" statistics  
 >3.Change the SDK initialization interface used by Unity. see: JC_unityAdApi.h
 ```
--(void)initJCSDKWithLog:(BOOL)isOpenLog isFirstShowSplash:(BOOL)isShow splashClose:(unityBlock)block;
+//-(void)initJCSDKWithLog:(BOOL)isOpenLog isFirstShowSplash:(BOOL)isShow splashClose:(unityBlock)block;
+-(void)initJCSDKWithUnityShow:(unityBlock)block;
 ```
 
 >4.Change the log log interface, increase the log level.  see: JCAdCallBackHeader.h  
->5.Change JCiOSConfig.plist, add: "KochavaAppID", "TenJinAppID", "ShowSplashFirst", "LogLevel"  
+```
+typedef enum : NSInteger {
+    MSLogLevel_Close = 1,   //close log ,nomal state
+    MSLogLevel_MSLog,       //open MS log
+    MSLogLevel_ThreeAdLog,  //open MS log + Third party advertising logs
+    MSLogLevel_DataSendLog  //open MS log + Third party advertising logs + Logs of third-party statistical platforms
+    
+} MSLogLevelStatus;
+```
+
+>5.Change JCiOSConfig.plist, add:   
+   "KochavaAppID":    kochava initialization parameters   
+   "TenJinAppID":     TenJin initialization parameters   
+   "ShowSplashFirst": Whether to display splash when the app is first opened. 
+   "LogLevel":loglevel 1、closeAll. 2、open JC_log. 3、open JC+AD log. 4、open JC+AD+Data log. Defaults:1  
 
 **Project configuration：**  
 * add Support Library and file:  
