@@ -49,6 +49,9 @@ splash Ads、banner Ads、rewardVideo Ads、intersitial Ads、native Ads
 
 >4.修改了iOS日志打印接口。新增日志等级功能，详情见: JCAdCallBackHeader.h  
 ```
+旧代码
+//+(void)setOpenPlatformLog:(BOOL)openPlatformLog;
+新代码
 +(void)setTheLogLevel:(MSLogLevelStatus)logLevel;
 
 ```
@@ -105,19 +108,18 @@ support development tools: Xcode 12
 >2.Added "kochava" and "tenjin" statistics  
 >3.Change the SDK initialization interface used by Unity. see: JC_unityAdApi.h
 ```
+old code
 //-(void)initJCSDKWithLog:(BOOL)isOpenLog isFirstShowSplash:(BOOL)isShow splashClose:(unityBlock)block;
+new code
 -(void)initJCSDKWithUnityShow:(unityBlock)block;
 ```
 
 >4.Change the log log interface, increase the log level.  see: JCAdCallBackHeader.h  
 ```
-typedef enum : NSInteger {
-    MSLogLevel_Close = 1,   //close log ,nomal state
-    MSLogLevel_MSLog,       //open MS log
-    MSLogLevel_ThreeAdLog,  //open MS log + Third party advertising logs
-    MSLogLevel_DataSendLog  //open MS log + Third party advertising logs + Logs of third-party statistical platforms
-    
-} MSLogLevelStatus;
+old code
+//+(void)setOpenPlatformLog:(BOOL)openPlatformLog;
+new code
++(void)setTheLogLevel:(MSLogLevelStatus)logLevel;
 ```
 
 >5.Change JCiOSConfig.plist, add:   
